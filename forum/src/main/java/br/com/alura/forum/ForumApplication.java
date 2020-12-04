@@ -2,8 +2,10 @@ package br.com.alura.forum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.web.config.EnableSpringDataWebSupport;
 
 @SpringBootApplication
+@EnableSpringDataWebSupport //utilizado para funcionar o pageable como parametro no metodo lista
 public class ForumApplication {
 
 	public static void main(String[] args) {
