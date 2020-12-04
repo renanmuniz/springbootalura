@@ -8,6 +8,8 @@ import br.com.alura.forum.modelo.Topico;
 import br.com.alura.forum.repository.CursoRepository;
 import br.com.alura.forum.repository.TopicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -33,6 +35,7 @@ public class TopicosController {
 
 
     @GetMapping
+    @Cacheable(value = "listaDeTopicos") // foi usado aqui para ensinar, mas é recomendado usar apenas em tableas que quase nunca são atualizadas
     public Page<TopicoDto> lista(@RequestParam(required = false) String nomeCurso,
                                  @PageableDefault(sort = "id", direction = Sort.Direction.ASC, page = 0, size = 10) Pageable paginacao) {
 
@@ -47,6 +50,7 @@ public class TopicosController {
 
     @PostMapping
     @Transactional //precisa qndo vai criar/atualizar/deletar um recurso no BD.
+    @CacheEvict(value = "listaDeTopicos", allEntries = true) //limpa cache ao executar esse metodo
     public ResponseEntity<TopicoDto> cadastrar(@RequestBody @Valid TopicoForm form, UriComponentsBuilder uriBuilder) {
         Topico topico = form.converter(cursoRepository);
         topicoRepository.save(topico);
@@ -66,6 +70,7 @@ public class TopicosController {
 
     @PutMapping("/{id}")
     @Transactional  //precisa qndo vai criar/atualizar/deletar um recurso no BD.
+    @CacheEvict(value = "listaDeTopicos", allEntries = true) //limpa cache ao executar esse metodo
     public ResponseEntity<TopicoDto> atualizar(@PathVariable Long id, @RequestBody @Valid AtualizacaoTopicoForm form) {
         Optional<Topico> optional = topicoRepository.findById(id);
         if (optional.isPresent()) {
@@ -77,6 +82,7 @@ public class TopicosController {
 
     @DeleteMapping("/{id}")
     @Transactional //precisa qndo vai criar/atualizar/deletar um recurso no BD.
+    @CacheEvict(value = "listaDeTopicos", allEntries = true) //limpa cache ao executar esse metodo
     public ResponseEntity<?> remover(@PathVariable Long id) {
         Optional<Topico> optional = topicoRepository.findById(id);
         if (optional.isPresent()) {
