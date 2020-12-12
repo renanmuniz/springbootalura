@@ -23,16 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108651ad-70cf-4ec5-a8d9-27aed1c7fe25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/config/swagger/SwaggerConfigurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forum/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forum/src/test/java/br/com/alura/forum/repository/CursoRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/ForumApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/ForumApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/config/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/config/security/SecurityConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/controller/AutenticacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/controller/AutenticacaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/controller/TopicosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/controller/TopicosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forum/src/test/java/br/com/alura/forum/ForumApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/test/java/br/com/alura/forum/ForumApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
