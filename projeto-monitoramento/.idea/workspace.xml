@@ -23,6 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108651ad-70cf-4ec5-a8d9-27aed1c7fe25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.alura.monitoramento.MonitoramentoApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.alura.monitoramento.MonitoramentoApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/ForumApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/ForumApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/controller/AutenticacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/main/java/br/com/alura/forum/controller/AutenticacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forum/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../forum/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +72,42 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MonitoramentoApplicationTests">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitoramentoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monitoramento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.monitoramento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.monitoramento" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.monitoramento.MonitoramentoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonitoramentoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="monitoramento" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.alura.monitoramento.MonitoramentoApplication" />
@@ -72,6 +115,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MonitoramentoApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607546656562</updated>
-      <workItem from="1607546657684" duration="2041000" />
+      <workItem from="1607546657684" duration="2204000" />
     </task>
     <servers />
   </component>
@@ -100,37 +148,49 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607547519651">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607786806954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607547519651" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607547519651">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786806954" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607786806954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607547519651" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607547519651">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786806954" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607786806954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607547519651" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607547519651">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786806954" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607786806954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607547519651" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1607547519651">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786806954" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1607786649291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.bottom/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607547519651" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1607547519651">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786649291" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1607786649291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.center/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607547519651" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1607547519651">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786649291" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1607786649291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.left/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607547519651" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1607547519651">
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786649291" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1607786649291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.right/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607547519651" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786649291" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1607786657138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1366.182.1366.768@0.0.1920.1040" timestamp="1607786657138" />
   </component>
 </project>
